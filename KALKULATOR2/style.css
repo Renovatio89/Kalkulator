@@ -1,0 +1,48 @@
+.f_button, .liczba, .wynik {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+
+}
+
+table {
+background-color: black;
+border: solid 2px black;
+}
+
+#ekran {
+    height: 40px;
+    width: 130px;
+    background-color: #e5e5e5;
+    text-align: right;
+    float: left;
+}
+
+.f_button {
+    color: white;
+    background-color: #00a693;
+}
+
+.liczba {
+    background-color: #f5f5f5;
+}
+.wynik {
+    background-color: #fe7f00;
+    color: white;
+}
+#ekran_b, #ekran_a {
+    width: 120px;
+    height: 20px;
+}
+#zn{
+   width: 40px;
+   height: 40px;
+   float: left;
+   background-color: #e5e5e5;
+   text-align: right; 
+}
+#znak {
+    height: 20px;
+    width: 40px;
+    margin-top: 20px;
+}

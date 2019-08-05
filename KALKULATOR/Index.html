@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kalkulator v1</title>
+</head>
+<body>
+    
+    <form>
+        Liczba 1: <input type="text" id="liczba1">
+        Liczba 2: <input type="text" id="liczba2">
+        Operator: 
+        <select id="operator">
+            <option value="add">Dodawanie</option>
+            <option value="min">Odejmowanie</option>
+            <option value="div">Dzielenie</option>
+            <option value="mul">Mnożenie</option>
+        </select>
+        <button type="button" onclick="calc()">Wynik</button>
+    </form>
+
+    <div id="wynik"></div>
+
+</body>
+<script src="JS/script.js"></script>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kalkulator v2</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <td colspan="4">
+                <div id="zn">
+                    <div id="znak">
+                    </div>
+                </div>
+                <div id="ekran">
+                    <div id="ekran_b">
+                    </div>
+                    <div id="ekran_a">
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="f_button" onclick="clear_e()"> C </td>
+            <td class="f_button" onclick="znak('/')"> / </td>
+            <td class="f_button" onclick="znak('*')"> * </td>
+            <td class="f_button" onclick="back()"> (= </td>
+        </tr>
+        <tr>
+            <td class="liczba" onclick="liczba('7')"> 7 </td>
+            <td class="liczba" onclick="liczba('8')"> 8 </td>
+            <td class="liczba" onclick="liczba('9')"> 9 </td>
+            <td class="f_button" onclick="znak('-')"> - </td>
+        </tr>
+        <tr>
+            <td class="liczba" onclick="liczba('4')"> 4 </td>
+            <td class="liczba" onclick="liczba('5')"> 5 </td>
+            <td class="liczba" onclick="liczba('6')"> 6 </td>
+            <td class="f_button" onclick="znak('+')"> + </td>
+        </tr>
+        <tr>
+            <td class="liczba" onclick="liczba('1')"> 1 </td>
+            <td class="liczba" onclick="liczba('2')"> 2 </td>
+            <td class="liczba" onclick="liczba('3')"> 3 </td>
+            <td class="wynik" onclick="wynik()" rowspan="2"> = </td>
+        </tr>
+        <tr>
+            <td class="liczba" onclick="liczba('0')" colspan="2"> 0 </td>
+            <td class="liczba" onclick="kropka()"> . </td>
+        </tr>
+    </table>
+
+</body>
+<script src="JS/script.js"></script>
+
+</html>
